@@ -31,7 +31,8 @@ function Generator() {
                         ref={paragraphRef}
                     >
                     </textarea>
-                    <button onClick={handleClick} className="btn rounded-2xl bg-teal-400 hover:bg-teal-600 text-black hover:text-white group absolute bottom-8 right-8 drop-shadow-xl">
+                    <button onClick={handleClick} className="btn py-2 rounded bg-teal-400 hover:bg-teal-600 text-black hover:text-white group absolute bottom-8 right-8 drop-shadow-xl">
+                        Generate
                         <FaCog
                             className={`${ loading && "animate-spin" }`}
                         />
