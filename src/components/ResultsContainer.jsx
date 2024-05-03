@@ -26,7 +26,7 @@ function ResultsContainer({ results }) {
                 results.slice(0, index).map((result, index) => (
                     <Result
                         key={index}
-                        image={result.image}
+                        keywords={result.keywords}
                         paragraph={result.paragraph}
                     />
                 ))

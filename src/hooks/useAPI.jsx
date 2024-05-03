@@ -53,13 +53,7 @@ function useAPI() {
       const data = await app.predict("/gradio_interface", [paragraph]);
       let json_data = JSON.parse(data.data);
       setResults(json_data);
-      results.forEach((result) => {
-        let url = `https://pixabay.com/api?key=43695808-10e225965e425ceb6a2938f14&q=${result.keywords.join(',')}&image_type=photo&pretty=true`;
-        fetch(url)
-          .then(response => response.json())
-          .then(data => console.log(data))
-          .catch(error => console.error('Error fetching image:', error));
-      });
+      console.log(json_data)
     } catch (error) {
       console.error('Error fetching data:', error);
     } finally {
