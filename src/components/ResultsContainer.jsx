@@ -24,13 +24,17 @@ function ResultsContainer({ results }) {
         <div className="w-full h-full relative mt-40" ref={scrollRef}>
             {
                 results.slice(0, index).map((result, index) => (
-                    <Result key={index} />
+                    <Result
+                        key={index}
+                        image={result.image}
+                        paragraph={result.paragraph}
+                    />
                 ))
             }
 
             {
                 message && (
-                    <div className="fixed bottom-10 right-10 -translate-y-1/2 -translate-x-1/2 opacity-75 font-medium bg-slate-900 text-white rounded-sm py-1 w-40 text-center">
+                    <div className="fixed bottom-10 left-1/2 -translate-y-1/2 -translate-x-1/2 opacity-75 font-medium bg-slate-900 text-white rounded-sm py-1 w-40 text-center">
                         {message}
                     </div>
                 )
