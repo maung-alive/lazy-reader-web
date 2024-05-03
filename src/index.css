@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar {
+    @apply bg-transparent text-gray-900
+    w-full py-5 px-10 md:px-20 lg:px-32 xl:px-40
+    flex items-center justify-between
+    backdrop-blur
+    fixed top-0 z-50
+    dark:text-gray-100;
+  }
+
+  .home {
+    @apply bg-gray-900 relative
+    w-full h-[60dvh] px-10 md:px-20 lg:px-24 xl:px-32
+    grid md:grid-cols-2
+    pt-32 md:pt-20;
+  }
+
+  .footer {
+    @apply bg-gray-900
+    w-full px-10 md:px-20 lg:px-24 xl:px-32
+    flex justify-center items-center
+    py-10;
+  }
+
+  .image {
+    @apply absolute
+    bg-slate-700
+    w-40 md:w-60 aspect-[3/4]
+    border border-white
+    drop-shadow-2xl
+    object-cover;
+  }
+  .btn {
+    @apply relative bg-violet-500 font-medium text-lg rounded-lg text-white
+    px-4 py-4
+    hover:bg-violet-600
+    flex items-center justify-center gap-x-4 overflow-hidden
+    ;
+  }
+}
