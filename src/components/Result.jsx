@@ -10,7 +10,7 @@ function Result({ keywords, paragraph }) {
 
     useEffect(() => {
         setImage({
-            src: keywords[imageIndex].image_url,
+            src: keywords[imageIndex].webformatURL,
             alt: keywords[imageIndex].keyword
         })
     }, [imageIndex])

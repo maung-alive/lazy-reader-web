@@ -12,7 +12,7 @@ function NavBar() {
         <div className="navbar">
             <div className="text-3xl font-medium dark:text-white text-black">Lazy Reader</div>
 
-            <p className="text-base">Read Lazily</p>
+            <p className="text-base text-gray-300">Read Lazily</p>
         </div>
     )
 }
