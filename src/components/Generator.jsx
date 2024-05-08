@@ -18,8 +18,9 @@ function Generator() {
             <div className="grid md:grid-cols-2 px-10 md:px-10 lg:px-20 xl:px-40 md:mb-20 mb-20 mt-20">
                 <div className="w-full flex items-center justify-center mb-16 md:mb-0">
                     <p className="text-base lg:text-lg xl:text-xl font-medium font-serif text-center md:px-16 xl:px-20 leading-10 italic text-gray-900">
-                    Say goodbye to confusion and hello to clarity with our innovative keyword generation feature. Simply input your paragraph, and watch as our app extracts the most important keywords.
-                    With our integrated image search functionality, you'll gain deeper insights into the keywords by visualizing them in real-world contexts.
+                    စာအရှည်ကြီး ဖတ်ရမှာ ပျင်းသူတွေအတွက် လုပ်လိုက်ပါပြီ။
+                    Lazy Reader လေးဟာဆိုရင်တော့ စာအရှည်ကြီးတွေ copy paste ပြီး တစ်ကိုက်စာ အပိုဒ်လေးတွေနဲ့အတူ စာနဲ့လိုက်ဖက်မယ့် ပုံလေးတွေလည်း ပြပေးမှာဆို​တော့ သားသားမီးမီးတွေအတွက်လည်း အဆင်ပြေတာပေါ့။
+                    လောလောဆယ်တော့ Eng လိုပဲ အဆင်ပြေဦးမှာပါ၊ Myanmar AI, NLP ပိုင်းနဲ့ လုပ်ပေးချင်တယ်ဆိုရင်လည်း ဆက်သွယ်ပေးပါဗျ။
                     </p>
                 </div>
                 <div className="w-full relative">
